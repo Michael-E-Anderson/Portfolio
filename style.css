@@ -21,8 +21,9 @@ nav{
   padding-bottom: 10px;
   text-align: right
 }
-.nav-links
-a:link    {color: rgb(253, 252, 247)}
+.nav-links{
+color: rgb(253, 252, 247)
+}
 .nav-links-v
 a:visited {color: rgb(253, 252, 247)}
 
