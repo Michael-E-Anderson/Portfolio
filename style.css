@@ -13,6 +13,13 @@ header, h1{
   padding-top: 13px;
 }
 
+.header-p{
+  color: rgb(253, 252, 247); 
+  text-align: center; 
+  padding-bottom: 20px; 
+  font-size: 20px;
+}
+
 nav{
   font-family: 'Vollkorn', serif;
   font-size: 20px;
@@ -21,11 +28,12 @@ nav{
   padding-bottom: 10px;
   text-align: right
 }
-.nav-links{
-color: rgb(253, 252, 247)
-}
-.nav-links-v
-a:visited {color: rgb(253, 252, 247)}
+
+a.nav {color: rgb(253, 252, 247)}
+a.nav:link {color: rgb(253, 252, 247)}
+a.nav:visited {color: rgb(253, 252, 247)}
+a.nav:hover {color: rgb(253, 252, 247)}
+a.nav:active {color: rgb(253, 252, 247)}
 
 
 body{
@@ -38,9 +46,6 @@ footer{
   width: auto;
   margin: auto;
   background-color: #405164;
-}
-
-footer{
   color: rgb(253, 252, 247);
 }
 
@@ -81,8 +86,12 @@ p, li{
   margin-left: auto;
   margin-right: auto;
   width: 200px;
-  height: auto;
-} 
+}
+
+/* centers text*/
+.c-align{
+  text-align: center;
+}
 
 hr{
   color: #405164
@@ -92,6 +101,15 @@ a:link    {color: rgb(37, 93, 105)}
 a:visited {color: darkred}
 a:hover   {color: darkolivegreen}
 a:active  {color: cyan}
+
+.footer-heading{
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.footer-copyright{
+  color:rgb(253, 252, 247)
+}
 
 .social-links{
   width: 50px;
